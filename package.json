@@ -1,0 +1,19 @@
+{
+  "name": "sdet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "1.1.2",
+    "testcafe-reporter-html": "^1.4.4",
+    "testcafe-reporter-spec": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-headles": "testcafe 'chrome:headless' coba",
+    "test": "testcafe chrome coba",
+    "html": "testcafe 'chrome:headless' coba --reporter spec,html:result.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
