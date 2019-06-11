@@ -10,9 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test-headles": "testcafe 'chrome:headless' coba",
-    "test": "testcafe chrome coba",
-    "html": "testcafe 'chrome:headless' coba --reporter spec,html:result.html"
+    "test-headles": "testcafe 'chrome:headless' scenario",
+    "test": "testcafe chrome scenario"
   },
   "author": "",
   "license": "ISC"
