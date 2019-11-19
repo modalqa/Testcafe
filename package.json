@@ -10,14 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test-headles": "testcafe 'chrome:headless' scenario",
-<<<<<<< HEAD
-    "test": "testcafe firefox src/step",
-    "remote" : "testcafe remote scenario",
-    "typo" : "testcafe chrome scenario/typobug.js"
-=======
-    "test": "testcafe chrome scenario"
->>>>>>> d5f68c4f013c43367167faa0d769ce9232efcdcd
+    "test": "testcafe firefox src/step"
   },
   "author": "",
   "license": "ISC"
