@@ -10,9 +10,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test-headles": "testcafe 'chrome:headless' coba",
-    "test": "testcafe chrome coba",
-    "html": "testcafe 'chrome:headless' coba --reporter spec,html:result.html"
+    "test-headles": "testcafe 'chrome:headless' scenario",
+    "test": "testcafe firefox src/step",
+    "remote" : "testcafe remote scenario",
+    "typo" : "testcafe chrome scenario/typobug.js"
   },
   "author": "",
   "license": "ISC"
