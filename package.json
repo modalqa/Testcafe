@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "testcafe": "1.1.2",
-    "testcafe-reporter-html": "^1.4.4",
+    "testcafe": "1.20.1",
+    "testcafe-reporter-html": "^1.4.6",
     "testcafe-reporter-spec": "^2.1.1"
   },
   "devDependencies": {},
